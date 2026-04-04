@@ -21,6 +21,13 @@ After, you can install all the required packages as follows:
 pip install -r requirements.txt
 ```
 
+To be able to use the spaCY libraries, we need to install also the [en_core_web_sm](https://spacy.io/models/en) model for manipulating english sentences.
+This can be done using the following command:
+
+```bash
+python -m spacy download en_core_web_sm
+```
+
 In order to execute the examples, you need to configure the `.env` file.
 You can generate this file copying the `.env.dev` template file, as follows:
 
@@ -28,17 +35,7 @@ You can generate this file copying the `.env.dev` template file, as follows:
 cp .env.dev .env
 ```
 
-And then you can edit the `.env` file with your settings about Elasticsearch and OpenAI (some of the examples require an API key).
-
-## Execute the Python examples
-
-You can execute the python examples from the command line, as follows:
-
-```bash
-python -m chapter1.token
-```
-
-This will execute the Python script [chapter1/token.py](chapter1/token.py).
+And then you can edit the `.env` file with your settings about Elasticsearch and OpenAI.Some of the examples require an API key, read the next section for Elasticsearch.
 
 ## Install Elasticsearch
 
@@ -53,3 +50,13 @@ curl -fsSL https://elastic.co/start-local | sh
 ```
 
 This will install Elasticsearch and [Kibana](https://www.elastic.co/kibana) on macOS, Linux and Windows (using WSL).
+
+## Execute the Python examples
+
+You can execute the python examples from the command line, as follows:
+
+```bash
+python -m chapter1.token
+```
+
+This will execute the Python script [chapter1/token.py](chapter1/token.py).
