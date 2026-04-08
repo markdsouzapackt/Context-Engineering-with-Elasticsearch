@@ -2,6 +2,18 @@
 
 This repository contains the source code of the book [Context Engineering with Elasticsearch]() by [Enrico Zimuel](https://www.zimuel.it).
 
+The examples are divided by Chapters, as follows:
+
+- [Chapter 1](chapter1/): Context Engineering for LLM Apps
+- [Chapter 2](chapter2/): Information Retrieval Fundamentals, and How to Measure It
+- Chapter 3:
+- Chapter 4:
+- Chapter 5:
+- Chapter 6:
+- Chapter 7:
+- Chapter 8:
+- Chapter 9:
+- Chapter 10:
 
 ## Install the project examples
 
