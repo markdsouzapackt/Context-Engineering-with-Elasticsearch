@@ -72,3 +72,33 @@ python -m chapter1.token
 ```
 
 This will execute the Python script [chapter1/token.py](chapter1/token.py).
+For some chapters is important to execute the examples in order because they use some data stored in some previous scripts in Elasticsearch.
+Below is reported the order of execution for each chapter. This order reflects also the position of the examples in each chapter of the book.
+
+### Chapter 1
+
+1. [token.py](chapter1/token.py)
+2. [tool_calling.py](chapter1/tool_calling.py)
+3. [elasticsearch.py](chapter1/elasticsearch.py)
+4. [simple_rag.py](chapter1/simple_rag.py)
+
+### Chapter 2
+
+1. [stopwords.py](chapter2/stopwords.py)
+2. [custom_stopwords.py](chapter2/custom_stopwords.py)
+3. [lemmization.py](chapter2/lemmization.py)
+4. [analyzer.py](chapter2/analyzer.py)
+5. [analyzer_filter.py](chapter2/analyze_filter.py)
+6. [simple_search.py](chapter2/simple_search.py)
+7. [rank_eval.py](chapter2/rank_eval.py)
+
+### Chapter 3
+
+1. [mapping_and_index.py](chapter3/mapping_and_index.py) (create the `rag_context_chunks` index)
+2. [queries.py](chapter3/queries.py)
+3. [filter.py](chapter3/filter.py)
+4. [function_score.py](chapter3/function_score.py)
+5. [esql.py](chapter3/esql.py)
+6. [profile.py](chapter3/profile.py)
+7. [explain.py](chapter3/explain.py)
+8. [ingest_pipeline_rag.py](chapter3/ingest_pipeline_rag.py)
