@@ -47,7 +47,8 @@ You can generate this file copying the `.env.dev` template file, as follows:
 cp .env.dev .env
 ```
 
-And then you can edit the `.env` file with your settings about Elasticsearch and OpenAI.Some of the examples require an API key, read the next section for Elasticsearch.
+And then you can edit the `.env` file with your settings about Elasticsearch and OpenAI.
+Some of the examples require an API key, read the next section for Elasticsearch.
 
 ## Install Elasticsearch
 
@@ -62,6 +63,8 @@ curl -fsSL https://elastic.co/start-local | sh
 ```
 
 This will install Elasticsearch and [Kibana](https://www.elastic.co/kibana) on macOS, Linux and Windows (using WSL).
+
+Copy and paste the 🔑 Elasticsearch API Key in the `.env` file.
 
 ## Execute the Python examples
 
@@ -102,3 +105,16 @@ Below is reported the order of execution for each chapter. This order reflects a
 6. [profile.py](chapter3/profile.py)
 7. [explain.py](chapter3/explain.py)
 8. [ingest_pipeline_rag.py](chapter3/ingest_pipeline_rag.py)
+
+### Chapter 4
+
+1. [dsl_match.py](chapter4/dsl_match.py)
+2. [dsl_multi_match.py](chapter4/dsl_multi_match.py)
+3. [dsl_dis_max.py](chapter4/dsl_dis_max.py)
+4. [dsl_dis_min_should_match.py](chapter4/dsl_dis_min_should_match.py)
+5. [esql_examples.py](chapter4/esql_examples.py)
+6. [esql_pandas.py](chapter4/esql_pandas.py)
+7. [esql_query_builder.py](chapter4/esql_query_builder.py)
+8. [explain.py](chapter4/explain.py)
+9. [profile.py](chapter4/profile.py)
+10. [lab_search_service_tools.py](chapter4/lab_search_service_tools.py)

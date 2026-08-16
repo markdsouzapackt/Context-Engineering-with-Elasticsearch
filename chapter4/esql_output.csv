@@ -1,0 +1,21 @@
+doc_id,chunk_id,title,section_heading,source_path
+doc-context-engineering-001,chunk-001,Foundations of Context Engineering,What context engineering means,chapter-01.md
+doc-context-engineering-001,chunk-002,Foundations of Context Engineering,The role of context in grounded answers,chapter-01.md
+doc-context-engineering-001,chunk-003,Foundations of Context Engineering,Separating retrieval from generation,chapter-01.md
+doc-context-engineering-001,chunk-004,Foundations of Context Engineering,Common failure modes in RAG systems,chapter-01.md
+doc-context-engineering-001,chunk-005,Foundations of Context Engineering,Design goals for useful context,chapter-01.md
+doc-context-engineering-002,chunk-006,Content Modeling for Retrieval,Choosing source documents,chapter-02.md
+doc-context-engineering-002,chunk-007,Content Modeling for Retrieval,Normalizing document structure,chapter-02.md
+doc-context-engineering-002,chunk-008,Content Modeling for Retrieval,Preserving headings and hierarchy,chapter-02.md
+doc-context-engineering-002,chunk-009,Content Modeling for Retrieval,Handling tables and lists,chapter-02.md
+doc-context-engineering-002,chunk-010,Content Modeling for Retrieval,Designing reusable chunk metadata,chapter-02.md
+doc-context-engineering-003,chunk-011,Chunking Strategies,Chunk boundaries and semantic units,chapter-03.md
+doc-context-engineering-003,chunk-012,Chunking Strategies,Chunk overlap and recall,chapter-03.md
+doc-context-engineering-003,chunk-013,Chunking Strategies,Small chunks and precision,chapter-03.md
+doc-context-engineering-003,chunk-014,Chunking Strategies,Large chunks and completeness,chapter-03.md
+doc-context-engineering-003,chunk-015,Chunking Strategies,Testing chunk size with real questions,chapter-03.md
+doc-context-engineering-004,chunk-016,Elasticsearch Mapping Design,Searchable text fields,chapter-04.md
+doc-context-engineering-004,chunk-017,Elasticsearch Mapping Design,Keyword fields for exact filters,chapter-04.md
+doc-context-engineering-004,chunk-018,Elasticsearch Mapping Design,"Dates, numbers, and sortable values",chapter-04.md
+doc-context-engineering-004,chunk-019,Elasticsearch Mapping Design,Object metadata for flexible attributes,chapter-04.md
+doc-context-engineering-004,chunk-020,Elasticsearch Mapping Design,Mapping choices that affect retrieval,chapter-04.md
