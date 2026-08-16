@@ -7,7 +7,7 @@ The examples are divided by Chapters, as follows:
 - [Chapter 1](chapter1/): Context Engineering for LLM Apps
 - [Chapter 2](chapter2/): Information Retrieval Fundamentals, and How to Measure It
 - [Chapter 3](chapter3/): Elasticsearch Core Retrieval Mechanics
-- Chapter 4:
+- [Chapter 4](chapter4/): BM25 in Practice: Query DSL, Relevance Tuning, and ES|QL
 - Chapter 5:
 - Chapter 6:
 - Chapter 7:
