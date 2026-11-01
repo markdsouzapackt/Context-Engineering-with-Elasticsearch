@@ -58,7 +58,6 @@ es.indices.create(
 
 # Copy documents from the scifi index
 actions = []
-
 for hit in scan(
     es,
     index='scifi_movies',
@@ -69,9 +68,7 @@ for hit in scan(
     }
 ):
     source = hit['_source']
-
     source['title_autocomplete'] = source['title']
-
     actions.append({
         '_index': LAB_INDEX,
         '_id': hit['_id'],
