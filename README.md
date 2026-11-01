@@ -8,7 +8,7 @@ The examples are divided by Chapters, as follows:
 - [Chapter 2](chapter2/): Information Retrieval Fundamentals, and How to Measure It
 - [Chapter 3](chapter3/): Elasticsearch Core Retrieval Mechanics
 - [Chapter 4](chapter4/): BM25 in Practice: Query DSL, Relevance Tuning, and ES|QL
-- Chapter 5:
+- [Chapter 5](chapter5/)
 - Chapter 6:
 - Chapter 7:
 - Chapter 8:
@@ -118,3 +118,24 @@ Below is reported the order of execution for each chapter. This order reflects a
 8. [explain.py](chapter4/explain.py)
 9. [profile.py](chapter4/profile.py)
 10. [lab_search_service_tools.py](chapter4/lab_search_service_tools.py)
+
+### Chapter 5
+
+1. [ingest_scifi_movies.py](chapter5/ingest_scifi_movies.py) (create the `scifi-movies` index)
+2. [fuzzy.py](chapter5/fuzzy.py)
+3. [fuzzy_expansion.py](chapter5/fuzzy_expansion.py)
+4. [fuzzy_boost.py](chapter5/fuzzy_boost.py)
+5. [fuzzy_plus_lexical.py](chapter5/fuzzy_plus_lexical.py)
+6. [fuzzy_fallback.py](chapter5/fuzzy_fallback.py)
+7. [suggester.py](chapter5/suggester.py)
+8. [corrected_candidate.py](chapter5/corrected_candidate.py)
+9. [search_with_correction.py](chapter5/search_with_correction.py)
+10. [search_as_you_type.py](chapter5/search_as_you_type.py)
+11. [edge_ngram.py](chapter5/edge_ngram.py)
+12. [completion_suggester.py](chapter5/completion_suggester.py)
+13. [synonym_set.py](chapter5/synonym_set.py)
+14. [synonym_analyzer.py](chapter5/synonym_analyzer.py)
+15. [synonym_test.py](chapter5/synonym_test.py)
+16. [runtime_fields.py](chapter5/runtime_fields.py)
+17. [rating_category.py](chapter5/rating_category.py)
+18. [lab_autocomplete_spelling.py](chapter5/lab_autocomplete_spelling.py)
